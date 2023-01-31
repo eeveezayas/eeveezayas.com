@@ -2,12 +2,13 @@
   "name": "eevee-zayas-garin",
   "version": "1.0.0",
   "private": true,
-  "description": "eevee-zayas-garin",
+  "description": "Eevee Zayas-Garin's personal website",
   "author": "Eevee Zayas-Garín",
   "keywords": [
-    "gatsby"
+    "Eevee", "ADMIs", "dialogic design", "design", "design research", "music", "musical interaction", "sound art", "accessibility", "practice-based research", "design engineering", "lived experience", "replicability"
   ],
   "scripts": {
+    "deploy": "gatsby build && gh-pages -d public -b main",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
