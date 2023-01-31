@@ -5,7 +5,19 @@
   "description": "Eevee Zayas-Garin's personal website",
   "author": "Eevee Zayas-Garín",
   "keywords": [
-    "Eevee", "ADMIs", "dialogic design", "design", "design research", "music", "musical interaction", "sound art", "accessibility", "practice-based research", "design engineering", "lived experience", "replicability"
+    "Eevee",
+    "ADMIs",
+    "dialogic design",
+    "design",
+    "design research",
+    "music",
+    "musical interaction",
+    "sound art",
+    "accessibility",
+    "practice-based research",
+    "design engineering",
+    "lived experience",
+    "replicability"
   ],
   "scripts": {
     "deploy": "gatsby build && gh-pages -d public -b main",
@@ -17,13 +29,18 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "gatsby": "^5.5.0",
     "gatsby-plugin-image": "^3.5.0",
     "gatsby-plugin-manifest": "^5.5.0",
+    "gatsby-plugin-sass": "^6.5.0",
     "gatsby-plugin-sharp": "^5.5.0",
     "gatsby-source-filesystem": "^5.5.0",
+    "gatsby-transformer-json": "^5.5.0",
     "gatsby-transformer-sharp": "^5.5.0",
+    "hamburger-react": "^2.5.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {

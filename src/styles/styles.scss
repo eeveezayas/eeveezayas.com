@@ -1,0 +1,34 @@
+// https://coolors.co/d65c70-2ab7ca-52e071-395b50-f2b90d
+
+$theme-colors: (
+    "primary": #d65c70,
+    "secondary": #2ab7ca,
+    "success": #52e071,
+    "info": #395b50,
+    "warning": #f2b90d,
+);
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 800px !important;
+    }
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin-bottom: 80px;
+}
+
+.footer {
+    height: 80px;
+    line-height: 24px;
+    position: absolute;
+    width: 100%;
+}
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";

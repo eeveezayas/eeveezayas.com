@@ -1,0 +1,77 @@
+[
+  {
+    "title": "NEP7UNO",
+	"slug": "nep7uno",
+    "image": "../images/nep7uno.jpg",
+    "alt": "The Neptuno instrument (a seven-sided pyramid) being played by two hands, on a desk with other synths",
+    "caption": "Final version of NEP7UNO, developed on a placement at Bela",
+    "achievements": "Exhibited at Maker Music Festival 2021 and MAT WIP 2022.",
+    "video": "https://www.youtube.com/watch?v=qWTl3eVVQRs",
+    "description": "is a percussion instrument based on FM synthesis. With it, you can explore different ways of modulation in a tactile way. It runs on Bela and features seven custom Trill bar sensors and piezos.",
+	"short_description": "A percussion instrument based on FM synthesis. With it, you can explore different ways of modulation in a tactile way. It runs on Bela and features seven custom Trill bar sensors and piezos.",
+    "credits": "This project was developed in 2019-2020 for the Advanced Project Placement module of Media and Arts Technology at QMUL. The placement was at Augmented Instruments Inc aka Bela. I am currently looking for percussionists or general musicians who would like to borrow NEP7UNO for a composition."
+  },
+  {
+    "title": "Art of the Long Future",
+	"slug": "artofthelongfuture",
+    "image": "../images/alf.png",
+    "alt": "Close up of an ancient tree trunk",
+    "caption": "Still from 'Art of the Long Future' (Close-up of an ancient Yew tree)",
+    "achievements": "Exhibited at Contra Magazine #2 Launch Party.",
+    "video": "https://vimeo.com/327329732",
+    "description": "draws connections between the preservation of our ancient past, uncertainty of the world at present, and a vision for longevity through artistic practice. The film features interviews with Lucia Burgio, Vinita Khanna and Jem Finer.",
+	"short_description": "A short documentary film about the preservation of our ancient past, uncertainty of the world at present, and a vision for longevity through artistic practice.",
+    "credits": "This project was a collaboration between Nicole Robson, Sebastian Löbbers and Eevee Zayas. It was made in 2019 for the Digital Arts Documentary module of Media and Arts Technology at QMUL."
+  },
+  {
+    "title": "Touchy Spacey Data Thingy",
+	"slug": "tsdthingy",
+    "image": "../images/tsdthingy.jpg",
+    "alt": "Wooden laser-cut box being touched by two hands",
+    "caption": "Touchy Spacey Data Thingy prototype produced at MTF Stockholm 2018",
+    "achievements": "Winner of the Spaced-out Music challenge, sponsored by the Swedish National Space Agency and the European Space Agency, at Music Tech Fest Stockholm 2018.",
+    "video": "https://vimeo.com/289352295",
+	"link": "https://tsdthingy.github.io",
+    "description": "is a device for the sonification of data. Designed to provide a visceral interaction to compare data sets, it then presents them as an intuitive graphic interface and a musical instrument. While the instrument could be used to sonify any data, for this project we have specifically worked with satellite data from the ESA and SNSA API to provide a deeper understanding of the relationship between the 3 cities we are from across the seasons, and also to compare two different environments. Data is presented on laser-cut images that abstract the data, presenting as a cross between a piece of art and a cartridge for a games console.",
+	"short_description": "A device for the sonification of data. Designed to provide a visceral interaction to compare data sets, it then presents them as an intuitive graphic interface and a musical instrument.",
+    "credits": "This project was a collaboration between Gawain Hewitt, Sabina Barcucci, Johnnie Hård, Eevee Zayas and Malin Arvidsson. It was completed in 24h for the MTF Stockholm 2018 Hack Camp + Creative Media Labs at KTH."
+  },
+  {
+    "title": "The Rose Conducting Baton",
+	"slug": "rosebaton",
+    "image": "../images/jamesrose.jpg",
+    "alt": "Conductor James Rose, centre, with members of BSO Resound, an ensemble of disabled musicians",
+    "caption": "James Rose with BSO Resound at BBC Proms 2018. Photograph: Graeme Robertson for the Guardian",
+    "achievements": "The Rose Conducting Baton was used by James Rose to conduct his inclusive BSO Resound ensemble at the Royal Albert Hall during the BBC Proms 2018.",
+    "video": "https://www.bbc.com/news/av/uk-england-dorset-43407047/dorset-orchestra-forms-first-ensemble-of-disabled-musicians",
+	"link": "http://www.drakemusic.org/blog/leon-clowes/james-rose-and-bso-resound-at-the-bbc-proms-2018/",
+    "description": "is a 3D printed clip that allows for a conducting baton to be attached to James Rose's glasses. James conducts with his head and the accessible baton assists him in the development of his technical skill and artistry as a conductor. This was completed in time for James’ performance with BSO Resound at the BBC Proms 2018.",
+	"short_description": "A 3D printed clip that allows for a conducting baton to be attached to James Rose's glasses. James conducts with his head and the accessible baton assists him in the development of his technical skill and artistry as a conductor.",
+    "credits": "The Rose Conducting Baton was developed in partnership by James Rose, Eevee Zayas-Garin and Drake Music, with additional support from the EPSRC+AHRC Media and Arts Technology Centre for Doctoral Training at Queen Mary University of London and Bournemouth Symphony Orchestra."
+  },
+  {
+    "title": "lifeSupport",
+	"slug": "lifesupport",
+    "image": "../images/lifesupport.jpg",
+    "alt": "Four saline drip bags from lifeSupport hanging from an IV pole",
+    "caption": "Saline drip bags hang from the lifeSupport IV pole at Hackoustic exhibition",
+    "achievements": "Exhibited at Tate Modern (Hackoustic Tate Lates), London Roundhouse (Rising, We Are Now, Chairman's Dinner), Funkhaus (MTF Berlin), Old Truman Brewery (We Are Robots) and LimeWharf (Hackoustic).",
+    "video": "https://vimeo.com/163144503",
+    "description": "is an IV drip generative music installation powered by Bela platform. Four saline drip bags pick random notes from chords, each drip on a different octave, tuned using just intonation. Parameters can be tweaked in real-time.",
+	"short_description": "An IV drip generative music installation powered by Bela platform. Four saline drip bags pick random notes from chords, each drip on a different octave, tuned using just intonation. Parameters can be tweaked in real-time.",
+    "credits": "The flow is controlled by the dials embedded in the giving sets. Instead of being connected to catheters, the end of the giving sets are aligned using laser-cut acrylic arms. These are directly above a plate which holds four strips of brass. Under each piece of metal is a piezo transducer which is connected to Bela. This computer is running a compiled Pure Data patch which uses the excitation of the piezos to generate a random with each drop. Each number corresponds to a different note in a preset chord. By using the potentiometers on the breadboard, the user can change the base pitch, the envelope or the chord."
+  },
+	{
+    "title": "Kazumi",
+	"slug": "kazumi",
+    "image": "../images/kazumi.jpg",
+    "alt": "Hands playing on the first working prototype of Kazumi, a gray seven sided truncated pyramid",
+    "caption": "First version of Kazumi, developed at LSBU and Makerversity in 2015",
+    "achievements": "Winner of the Drake Music Accessible Music Tech 2016 Hackathon at Queen Mary University of London. Second prize in the Element14 Open Source Music Tech Challenge 2016. Exhibited at TEDxTeen London 2016 (Music Hackspace) and New Designers 2015 (LSBU).",
+    "video": "https://vimeo.com/163293305",
+	"link": "https://www.coroflot.com/luiszayas/Kazumi",
+    "description": "is an accessible instrument for aspiring musicians and makers. It is a completely new interface that is designed to be engaging for anyone that is interested in making music. Its design has been subject to many different constraints in order to remove as many barriers to participation as possible. Each of the seven surfaces is a touch-pad that is subdivided into five configurable electrodes. The structure can be rotated on its base to transpose the selected scale. Playing music on Kazumi is a tactile, sensual experience, hands exploring and caressing to draw different notes from the speaker embedded in the peak. It has been designed as an open-source DIY kit. This will not only allow anyone to learn about the materials and processes that have gone into the instrument but it will empower users by encouraging them to hack and customise it as the ultimate way of appropriation.",
+	"short_description": "An accessible instrument for aspiring musicians and makers. It is a completely new interface that is designed to be engaging for anyone that is interested in making music.",
+    "credits": "Kazumi was developed by Eevee Zayas-Garin during their undergraduate studies at London South Bank University and a residency at Makerversity."
+  }
+]
