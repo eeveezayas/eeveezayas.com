@@ -5,6 +5,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import { Button, Container, Row } from "react-bootstrap";
 import Layout from "../components/layout";
 import ProjectPreview from "../components/project-preview";
+import Music from "./music";
 
 const IndexPage: React.FC<PageProps> = () => {
     const data = useStaticQuery(graphql`
@@ -89,6 +90,101 @@ const IndexPage: React.FC<PageProps> = () => {
                             );
                         })}
                     </Row>
+                </Container>
+            </Container>
+            <Music />
+            <Container fluid id="publications" className="bg-light py-3">
+                <Container>
+                    <h2>Publications</h2>
+                    <p>Here is a list of my publications:</p>
+                    <ul>
+                        <li className="my-3">
+                            Zayas-Garin, E., & McPherson, A. (2022, June 16).
+                            Dialogic Design of Accessible Digital Musical
+                            Instruments: Investigating Performer Experience.
+                            <i>
+                                Proceedings of the International Conference on
+                                New Interfaces for Musical Expression.
+                            </i>{" "}
+                            NIME 2022.{" "}
+                            <a
+                                href="https://doi.org/10.21428/92fbeb44.2b8ce9a4"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                https://doi.org/10.21428/92fbeb44.2b8ce9a4
+                            </a>
+                        </li>
+                        <li className="my-3">
+                            Reed, C. N., Nordmoen, C., Martelloni, A., Lepri,
+                            G., Robson, N., Zayas-Garin, E., Cotton, K., Mice,
+                            L., & McPherson, A. (2022, June 16). Exploring
+                            Experiences with New Musical Instruments through
+                            Micro-phenomenology.{" "}
+                            <i>
+                                Proceedings of the International Conference on
+                                New Interfaces for Musical Expression.
+                            </i>{" "}
+                            NIME 2022.{" "}
+                            <a
+                                href="https://doi.org/10.21428/92fbeb44.b304e4b1"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                https://doi.org/10.21428/92fbeb44.b304e4b1
+                            </a>
+                        </li>
+                        <li className="my-3">
+                            Zayas-Garin, E., Harrison, J., Jack, R., &
+                            McPherson, A. (2021, April 29). DMI Apprenticeship:
+                            Sharing and Replicating Musical Artefacts.{" "}
+                            <i>
+                                Proceedings of the International Conference on
+                                New Interfaces for Musical Expression.
+                            </i>{" "}
+                            NIME 2021.{" "}
+                            <a
+                                href="https://doi.org/10/gm8tkf"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                https://doi.org/10/gm8tkf
+                            </a>
+                        </li>
+                    </ul>
+                </Container>
+            </Container>
+            <Container fluid id="contact" className="py-3">
+                <Container>
+                    <h2>Contact</h2>
+                    <p>Say hello! 👋</p>
+                    <Button
+                        variant="outline-primary"
+                        href="mailto:eevee1@posteo.uk"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="me-2"
+                    >
+                        Email
+                    </Button>
+                    <Button
+                        variant="outline-primary"
+                        href="twitter.com/zayaseevee"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="me-2"
+                    >
+                        Twitter
+                    </Button>
+                    <Button
+                        variant="outline-primary"
+                        href="https://tech.lgbt/@eevee"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="me-2"
+                    >
+                        Mastodon
+                    </Button>
                 </Container>
             </Container>
         </Layout>

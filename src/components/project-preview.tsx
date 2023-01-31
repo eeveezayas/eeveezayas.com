@@ -17,7 +17,7 @@ const ProjectPreview = ({ title, slug, image, alt, shortDescription }: any) => {
                         <p>{shortDescription}</p>
                     </Card.Text>
                     <a
-                        className="link-primary stretched-link"
+                        className="stretched-link"
                         href={/projects/ + "#" + slug}
                     >
                         Go to project

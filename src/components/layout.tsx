@@ -23,11 +23,11 @@ const Layout = ({ pageTitle, children }: any) => {
                             <Nav.Link href="/projects/#projects">
                                 Projects
                             </Nav.Link>
-                            <Nav.Link href="#music">Music</Nav.Link>
-                            <Nav.Link href="#publications">
+                            <Nav.Link href="/#music">Music</Nav.Link>
+                            <Nav.Link href="/#publications">
                                 Publications
                             </Nav.Link>
-                            <Nav.Link href="#contact">Contact</Nav.Link>
+                            <Nav.Link href="/#contact">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
@@ -38,7 +38,7 @@ const Layout = ({ pageTitle, children }: any) => {
     let footer = (
         <Container>
             <Container className="float-end mb-0 w-auto">
-                <Link className="link-primary" to="#">
+                <Link to="#">
                     <small>Back&nbsp;to&nbsp;top</small>
                 </Link>
             </Container>

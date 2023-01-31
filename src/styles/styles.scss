@@ -8,6 +8,10 @@ $theme-colors: (
     "warning": #f2b90d,
 );
 
+$brand-primary: #d65c70;
+
+$link-color: $brand-primary !default;
+
 @media (min-width: 992px) {
     .container {
         max-width: 800px !important;
