@@ -22,7 +22,6 @@ const config: GatsbyConfig = {
                 name: `Eevee Zayas-Garin`,
                 short_name: `Eevee`,
                 start_url: `/`,
-                theme_color: `#d65c70`,
                 display: `standalone`,
                 icon: `static/icon.svg`,
             },
