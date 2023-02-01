@@ -1,49 +1,37 @@
-import * as React from "react"
-import { Link, HeadFC, PageProps } from "gatsby"
+import * as React from "react";
+import { HeadFC, PageProps } from "gatsby";
+import { Button } from "react-bootstrap";
+import { SEO } from "../components/seo";
 
 const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
+    padding: "144px",
+};
 const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
+    marginTop: 0,
+    marginBottom: 32,
+    maxWidth: 320,
+};
 
 const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
+    marginBottom: 48,
+    maxWidth: 400,
+    fontSize: 32,
+};
 
 const NotFoundPage: React.FC<PageProps> = () => {
-  return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry 😔, we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
-  )
-}
+    return (
+        <main style={pageStyles}>
+            <h1 style={headingStyles}>Page not found</h1>
+            <p style={paragraphStyles}>
+                Sorry 😔—we couldn’t find what you were looking for.
+            </p>
+            <Button href="/" variant="outline-primary">
+                Go home
+            </Button>
+        </main>
+    );
+};
 
-export default NotFoundPage
+export default NotFoundPage;
 
-export const Head: HeadFC = () => <title>Not found</title>
+export const Head: HeadFC = () => <SEO title="404 | Eevee Zayas-Garín" />;

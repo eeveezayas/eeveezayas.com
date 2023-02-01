@@ -3,6 +3,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import type { HeadFC, PageProps } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import { Button, Container, Row } from "react-bootstrap";
+import { SEO } from "../components/seo";
 import Layout from "../components/layout";
 import ProjectPreview from "../components/project-preview";
 import Music from "./music";
@@ -193,4 +194,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage;
 
-export const Head: HeadFC = () => <title>Eevee Zayas-Garin</title>;
+export const Head: HeadFC = () => <SEO />;

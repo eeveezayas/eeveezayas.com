@@ -1,6 +1,7 @@
 import * as React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import { Container } from "react-bootstrap";
+import { SEO } from "../components/seo";
 import Layout from "../components/layout";
 import Project from "../components/project";
 
@@ -75,3 +76,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
+export const Head = () => <SEO title="Projects | Eevee Zayas-Garín" />;
