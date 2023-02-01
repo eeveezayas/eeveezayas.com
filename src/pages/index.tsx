@@ -99,7 +99,7 @@ const IndexPage: React.FC<PageProps> = () => {
                     <h2>Publications</h2>
                     <p>Here is a list of my publications:</p>
                     <ul>
-                        <li className="my-3">
+                        <li key="dialogicadmis" className="my-3">
                             Zayas-Garin, E., & McPherson, A. (2022, June 16).
                             Dialogic Design of Accessible Digital Musical
                             Instruments: Investigating Performer Experience.
@@ -116,7 +116,7 @@ const IndexPage: React.FC<PageProps> = () => {
                                 https://doi.org/10.21428/92fbeb44.2b8ce9a4
                             </a>
                         </li>
-                        <li className="my-3">
+                        <li key="mp4nime" className="my-3">
                             Reed, C. N., Nordmoen, C., Martelloni, A., Lepri,
                             G., Robson, N., Zayas-Garin, E., Cotton, K., Mice,
                             L., & McPherson, A. (2022, June 16). Exploring
@@ -135,7 +135,7 @@ const IndexPage: React.FC<PageProps> = () => {
                                 https://doi.org/10.21428/92fbeb44.b304e4b1
                             </a>
                         </li>
-                        <li className="my-3">
+                        <li key="dmiapprenticeship" className="my-3">
                             Zayas-Garin, E., Harrison, J., Jack, R., &
                             McPherson, A. (2021, April 29). DMI Apprenticeship:
                             Sharing and Replicating Musical Artefacts.{" "}
