@@ -5,6 +5,7 @@ export const SEO = ({ title, description, pathname, children }: any) => {
     const {
         title: defaultTitle,
         description: defaultDescription,
+        keywords,
         image,
         siteUrl,
         twitterUsername,
@@ -13,6 +14,7 @@ export const SEO = ({ title, description, pathname, children }: any) => {
     const seo = {
         title: title || defaultTitle,
         description: description || defaultDescription,
+        keywords,
         image: `${siteUrl}${image}`,
         url: `${siteUrl}${pathname || ``}`,
         twitterUsername,
@@ -22,6 +24,7 @@ export const SEO = ({ title, description, pathname, children }: any) => {
         <>
             <title>{seo.title}</title>
             <meta name="description" content={seo.description} />
+            <meta name="keywords" content={seo.keywords} />
             <meta name="image" content={seo.image} />
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:title" content={seo.title} />
