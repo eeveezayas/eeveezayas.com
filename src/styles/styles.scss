@@ -40,5 +40,9 @@ body {
     width: 100%;
 }
 
+* {
+    border-radius: 0 !important;
+}
+
 /* import bootstrap to set changes */
 @import "~bootstrap/scss/bootstrap";
