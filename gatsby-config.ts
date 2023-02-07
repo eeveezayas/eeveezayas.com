@@ -2,7 +2,7 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
     siteMetadata: {
-        title: `Eevee Zayas-Garin`,
+        title: `Eevee Zayas-Garín`,
         description: `I am a design engineer and a musician who also explores the mediums of poetry and photography. I have a special interest in matters of access, dialogic design, sound art and practice-based research into musical interaction.`,
         twitterUsername: `@zayaseevee`,
         image: `/eevee.jpg`,

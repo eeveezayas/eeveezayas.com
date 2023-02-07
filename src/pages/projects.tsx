@@ -40,7 +40,7 @@ const Projects = () => {
     const projects = data.allProjectsJson.edges;
 
     return (
-        <Layout pageTitle="Eevee Zayas-Garin">
+        <Layout pageTitle="Eevee Zayas-Garín">
             <Container id="projects" className="py-3">
                 <h1>Projects</h1>
                 {projects.map(({ node: project }: any) => {
